@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Under what circumstances can an Air India passenger request a refund?",
+    "ground_truth": "Replace this text with a manually verified answer from the indexed Air India policy document.",
+    "source": "air-india-coc.pdf",
+    "category": "air_india_policies"
+  },
+  {
+    "question": "What protections apply when an airline cancels a flight covered by US DOT rules?",
+    "ground_truth": "Replace this text with a manually verified answer from the relevant US DOT policy document.",
+    "source": "U.S. Department of Transportation - Refunds and Other Consumer Protections.pdf",
+    "category": "us_dot_regulations"
+  }
+]

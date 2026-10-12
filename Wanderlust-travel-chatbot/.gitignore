@@ -1,0 +1,27 @@
+cat > .gitignore <<'EOF'
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+.venv312/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MLflow local artifacts
+mlruns/
+mlartifacts/
+mlflow.db
+
+# IDE / OS
+.vscode/
+.DS_Store
+EOF
